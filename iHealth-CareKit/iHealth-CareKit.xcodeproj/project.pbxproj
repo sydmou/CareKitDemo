@@ -32,6 +32,34 @@
 			remoteGlobalIDString = 3F3475341E2F07E500D437F5;
 			remoteInfo = "iHealth-CareKit";
 		};
+		3F34758A1E2F0D3C00D437F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		3F34758C1E2F0D3C00D437F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		3F3475941E2F0D4700D437F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8605A5BA1C4F04EC00DD65FF;
+			remoteInfo = CareKit;
+		};
+		3F3475961E2F0D4700D437F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8605A5C41C4F04EC00DD65FF;
+			remoteInfo = CareKitTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +77,8 @@
 		3F3475571E2F07E500D437F5 /* iHealth-CareKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iHealth-CareKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F34755B1E2F07E500D437F5 /* iHealth_CareKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHealth_CareKitUITests.swift; sourceTree = "<group>"; };
 		3F34755D1E2F07E500D437F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../../Downloads/ResearchKit-master-2/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CareKit.xcodeproj; path = "../../../../Downloads/CareKit-master-2/CareKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +135,8 @@
 				3F3475421E2F07E500D437F5 /* Assets.xcassets */,
 				3F3475441E2F07E500D437F5 /* LaunchScreen.storyboard */,
 				3F3475471E2F07E500D437F5 /* Info.plist */,
+				3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */,
+				3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */,
 				3F34753F1E2F07E500D437F5 /* iHealth_CareKit.xcdatamodeld */,
 			);
 			path = "iHealth-CareKit";
@@ -126,6 +158,24 @@
 				3F34755D1E2F07E500D437F5 /* Info.plist */,
 			);
 			path = "iHealth-CareKitUITests";
+			sourceTree = "<group>";
+		};
+		3F3475851E2F0D3C00D437F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F34758B1E2F0D3C00D437F5 /* ResearchKit.framework */,
+				3F34758D1E2F0D3C00D437F5 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F34758F1E2F0D4700D437F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3475951E2F0D4700D437F5 /* CareKit.framework */,
+				3F3475971E2F0D4700D437F5 /* CareKitTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +274,16 @@
 			mainGroup = 3F34752C1E2F07E500D437F5;
 			productRefGroup = 3F3475361E2F07E500D437F5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3F34758F1E2F0D4700D437F5 /* Products */;
+					ProjectRef = 3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F3475851E2F0D3C00D437F5 /* Products */;
+					ProjectRef = 3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3F3475341E2F07E500D437F5 /* iHealth-CareKit */,
@@ -232,6 +292,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3F34758B1E2F0D3C00D437F5 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 3F34758A1E2F0D3C00D437F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F34758D1E2F0D3C00D437F5 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 3F34758C1E2F0D3C00D437F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F3475951E2F0D4700D437F5 /* CareKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CareKit.framework;
+			remoteRef = 3F3475941E2F0D4700D437F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F3475971E2F0D4700D437F5 /* CareKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CareKitTests.xctest;
+			remoteRef = 3F3475961E2F0D4700D437F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3F3475331E2F07E500D437F5 /* Resources */ = {
@@ -518,6 +609,7 @@
 				3F3475621E2F07E500D437F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3475631E2F07E500D437F5 /* Build configuration list for PBXNativeTarget "iHealth-CareKitTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +618,7 @@
 				3F3475651E2F07E500D437F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3475661E2F07E500D437F5 /* Build configuration list for PBXNativeTarget "iHealth-CareKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +627,7 @@
 				3F3475681E2F07E500D437F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
