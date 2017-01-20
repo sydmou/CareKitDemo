@@ -1,0 +1,234 @@
+{
+    "planID": 1,
+    "title": "ZombiCare Plan",
+    "description" : "This is a care plan for the treatment of zombification. Only use this treatment if your suffering from the Zombie virus.",
+    "lastUpdated": "20160612T073000+0000",
+    "intervention_activities": [
+                                {
+                                "identifier": "001",
+                                "group_identifier": "regular",
+                                "title": "Golden Apple",
+                                "colour": "Gold",
+                                "text": "An Apple a day keeps the doctor away",
+                                "startdate": "20160531T120000+0000",
+                                "scheduletype": "Daily",
+                                "schedule": "1",
+                                "imageURL": "zombie.jpg",
+                                "instructions": "Eat one golden apple a day after taking the potion of weakness.",
+                                "medication" : "There are two types of golden apple.  You need to find and eat a golden apple that is glowing. If its not glowing then it won't work.",
+                                "medicationimage" : "glowingapple.png"
+                                },
+                                {
+                                "identifier": "002",
+                                "group_identifier": "regular",
+                                "title": "Potion of Weakness",
+                                "colour": "Purple",
+                                "text": "25ml",
+                                "startdate": "20160531T120000+0000",
+                                "scheduletype": "Weekly",
+                                "schedule": "2,1,1,1,1,1,2",
+                                "instructions": "Pour over your head.",
+                                "medication" : "Potion of weakness is generally applied by your physician who will splash it on you,  but you can drink it as well.",
+                                "medicationimage" : "potionweakness.png"
+                                },
+                                {
+                                "identifier": "003",
+                                "group_identifier": "regular",
+                                "title": "Outdoor Walk",
+                                "colour": "Orange",
+                                "text": "15 mins",
+                                "startdate": "20160531T120000+0000",
+                                "scheduletype": "Weekly",
+                                "schedule": "3,3,3,3,3,3,3",
+                                "instructions": "Take a fast paced walk.",
+                                "medication" : "This assumes you are not in a condition to walk. If you can't, just move any part of your body repeatably - like doing press-ups.",
+                                "medicationimage" : "zombiepressup.png"
+                                }
+                                ],
+    "assessment_activities": [
+                              {
+                              "identifier": "004",
+                              "group_identifier": "weight",
+                              "title": "Weight",
+                              "colour": "Gold",
+                              "text": "Early morning or Late Evening",
+                              "startdate": "20160531T120000+0000",
+                              "scheduletype": "Daily",
+                              "schedule": "1",
+                              "task": {
+                              "identifier": "Task1",
+                              "steps": [
+                                        {
+                                        "identifier": "001",
+                                        "title": "Input your weight",
+                                        "format": "Quantity",
+                                        "unit": "lb"
+                                        }
+                                        ]
+                              }
+                              },
+                              {
+                              "identifier": "005",
+                              "group_identifier": "brain",
+                              "title": "Brain",
+                              "colour": "Gold",
+                              "text": "Cognitive recognition",
+                              "startdate": "20160531T120000+0000",
+                              "scheduletype": "Daily",
+                              "schedule": "1",
+                              "task": {
+                              "identifier": "Task1",
+                              "steps": [
+                                        {
+                                        "identifier": "001",
+                                        "title": "Choose Food",
+                                        "format": "Quantity",
+                                        "unit": "lb"
+                                        }
+                                        ]
+                              }
+                              },
+                              {
+                              "identifier": "006",
+                              "group_identifier": "pain",
+                              "title": "Pain",
+                              "colour": "Purple",
+                              "text": "Record Pain level around mid day",
+                              "startdate": "20160531T120000+0000",
+                              "scheduletype": "Weekly",
+                              "schedule": "1,1,1,1,1,1,1",
+                              "task": {
+                              "identifier": "Task1",
+                              "steps": [
+                                        {
+                                        "identifier": "001",
+                                        "title": "How was your pain today?",
+                                        "format": "Scale",
+                                        "maxvaluedescription": "Very high",
+                                        "minvaluedescription": "Very low",
+                                        "maxvalue": 10,
+                                        "minvalue": 1,
+                                        "defaultvalue": -1,
+                                        "stepvalue": 1,
+                                        "vertical": false
+                                        }
+                                        ]
+                              }
+                              },
+                              {
+                              "identifier": "007",
+                              "group_identifier": "rage",
+                              "title": "Morning Rage",
+                              "colour": "Orange",
+                              "text": "Record your mood in the moring",
+                              "startdate": "20160531T120000+0000",
+                              "scheduletype": "Weekly",
+                              "schedule": "1,1,1,1,1,1,1",
+                              "task": {
+                              "identifier": "Task1",
+                              "steps": [
+                                        {
+                                        "identifier": "001",
+                                        "title": "On a sale of 1 to 10, how do you rate your temper?",
+                                        "format": "Scale",
+                                        "maxvaluedescription": "Very Angry",
+                                        "minvaluedescription": "Calm",
+                                        "maxvalue": 10,
+                                        "minvalue": 1,
+                                        "defaultvalue": -1,
+                                        "stepvalue": 1,
+                                        "vertical": false
+                                        }
+                                        ]
+                              }
+                              },
+                              {
+                              "identifier": "008",
+                              "group_identifier": "rage",
+                              "title": "Midday Rage",
+                              "colour": "Orange",
+                              "text": "Record your mood at midday",
+                              "startdate": "20160531T120000+0000",
+                              "scheduletype": "Weekly",
+                              "schedule": "1,1,1,1,1,1,1",
+                              "task": {
+                              "identifier": "Task1",
+                              "steps": [
+                                        {
+                                        "identifier": "001",
+                                        "title": "On a scale of 1 to 10, how do you rate your temper?",
+                                        "format": "Scale",
+                                        "maxvaluedescription": "Very Angry",
+                                        "minvaluedescription": "Calm",
+                                        "maxvalue": 10,
+                                        "minvalue": 1,
+                                        "defaultvalue": -1,
+                                        "stepvalue": 1,
+                                        "vertical": false
+                                        },
+                                        {
+                                        "identifier": "002",
+                                        "title": "On a scale of 1 to 10, how irrated are you?",
+                                        "format": "Scale",
+                                        "maxvaluedescription": "Very Irritated",
+                                        "minvaluedescription": "Not Much",
+                                        "maxvalue": 5,
+                                        "minvalue": 1,
+                                        "defaultvalue": -1,
+                                        "stepvalue": 1,
+                                        "vertical": false
+                                        }
+                                        ]
+                              }
+                              },
+                              {
+                              "identifier": "009",
+                              "group_identifier": "rage",
+                              "title": "Evening Rage",
+                              "colour": "Orange",
+                              "text": "Record your mood in the evening",
+                              "startdate": "20160531T120000+0000",
+                              "scheduletype": "Weekly",
+                              "schedule": "1,1,1,1,1,1,1",
+                              "task": {
+                              "identifier": "Task1",
+                              "steps": [
+                                        {
+                                        "identifier": "001",
+                                        "title": "On a sale of 1 to 10, how do you rate your temper?",
+                                        "format": "Scale",
+                                        "maxvaluedescription": "Very Angry",
+                                        "minvaluedescription": "Calm",
+                                        "maxvalue": 10,
+                                        "minvalue": 1,
+                                        "defaultvalue": -1,
+                                        "stepvalue": 1,
+                                        "vertical": false
+                                        }
+                                        ]
+                              }
+                              }
+                              ],
+    "connections": [
+                 {
+                 "name": "Dr Colin Candid",
+                 "relation": "Physician",
+                 "colour": "Orange",
+                 "emailAddress": "doea@zombiecare.com",
+                 "phoneNumber": "888-555-5512",
+                 "messageNumber": "888-555-5512",
+                 "monogram": "CC",
+                 "imageURL": null
+                 },
+                 {
+                 "name": "Holly Helpful",
+                 "relation": "Nurse",
+                 "colour": "Orange",
+                 "emailAddress": "helpful@zombiecare.com",
+                 "phoneNumber": "888-555-5512",
+                 "messageNumber": "888-555-5512",
+                 "monogram": "HH",
+                 "imageURL": null
+                 }
+                 ]
+}

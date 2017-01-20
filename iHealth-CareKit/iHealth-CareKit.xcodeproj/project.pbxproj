@@ -8,13 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		3F3475391E2F07E500D437F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3475381E2F07E500D437F5 /* AppDelegate.swift */; };
-		3F34753B1E2F07E500D437F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34753A1E2F07E500D437F5 /* ViewController.swift */; };
 		3F34753E1E2F07E500D437F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F34753C1E2F07E500D437F5 /* Main.storyboard */; };
 		3F3475411E2F07E500D437F5 /* iHealth_CareKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F34753F1E2F07E500D437F5 /* iHealth_CareKit.xcdatamodeld */; };
 		3F3475431E2F07E500D437F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3475421E2F07E500D437F5 /* Assets.xcassets */; };
 		3F3475461E2F07E500D437F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3475441E2F07E500D437F5 /* LaunchScreen.storyboard */; };
 		3F3475511E2F07E500D437F5 /* iHealth_CareKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3475501E2F07E500D437F5 /* iHealth_CareKitTests.swift */; };
 		3F34755C1E2F07E500D437F5 /* iHealth_CareKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34755B1E2F07E500D437F5 /* iHealth_CareKitUITests.swift */; };
+		3F3475991E2F108400D437F5 /* CareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3475951E2F0D4700D437F5 /* CareKit.framework */; };
+		3F34759A1E2F108400D437F5 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F34758B1E2F0D3C00D437F5 /* ResearchKit.framework */; };
+		3F3475B91E305D0700D437F5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3475B81E305D0700D437F5 /* SwiftyJSON.swift */; };
+		3FCF8A5F1E31B20F00A7128E /* ZCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8A5D1E31B20F00A7128E /* ZCService.swift */; };
+		3FCF8A601E31B20F00A7128E /* ZCServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8A5E1E31B20F00A7128E /* ZCServiceProvider.swift */; };
+		3FCF8A631E31B21700A7128E /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8A611E31B21700A7128E /* MockService.swift */; };
+		3FCF8A641E31B21700A7128E /* MockResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8A621E31B21700A7128E /* MockResource.swift */; };
+		3FCF8A751E31B35300A7128E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8A741E31B35300A7128E /* RootViewController.swift */; };
+		3FCF8A9F1E31B49200A7128E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8A9E1E31B49200A7128E /* Colors.swift */; };
+		3FCF8AAD1E31B8F200A7128E /* ZCCareMonthlySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8AA91E31B8F200A7128E /* ZCCareMonthlySchedule.swift */; };
+		3FCF8AAE1E31B8F200A7128E /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8AAA1E31B8F200A7128E /* Medication.swift */; };
+		3FCF8AB01E31B96E00A7128E /* ZCCarePlanStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8AAF1E31B96E00A7128E /* ZCCarePlanStoreManager.swift */; };
+		3FCF8ABC1E31BFCB00A7128E /* zombiepressup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF8AB81E31BFCB00A7128E /* zombiepressup.png */; };
+		3FCF8ABD1E31BFCB00A7128E /* Zombie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF8AB91E31BFCB00A7128E /* Zombie.png */; };
+		3FCF8ABE1E31BFCB00A7128E /* glowingapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF8ABA1E31BFCB00A7128E /* glowingapple.png */; };
+		3FCF8ABF1E31BFCB00A7128E /* potionweakness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF8ABB1E31BFCB00A7128E /* potionweakness.png */; };
+		3FCF8AD51E31F06800A7128E /* Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8AD41E31F06800A7128E /* Assessment.swift */; };
+		3FCF8AD71E31F10A00A7128E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8AD61E31F10A00A7128E /* Activity.swift */; };
+		3FCF8AD91E31F1A000A7128E /* CarePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8AD81E31F1A000A7128E /* CarePlan.swift */; };
+		3FCF8ADB1E31F1BF00A7128E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8ADA1E31F1BF00A7128E /* Contact.swift */; };
+		3FCF8ADD1E31F1F300A7128E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8ADC1E31F1F300A7128E /* Color.swift */; };
+		3FCF8ADF1E31F2D800A7128E /* BrainTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF8ADE1E31F2D800A7128E /* BrainTask.swift */; };
+		3FCF8AE11E31F3A900A7128E /* careplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF8AE01E31F3A900A7128E /* careplan.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +87,6 @@
 /* Begin PBXFileReference section */
 		3F3475351E2F07E500D437F5 /* iHealth-CareKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iHealth-CareKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3475381E2F07E500D437F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F34753A1E2F07E500D437F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F34753D1E2F07E500D437F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3475401E2F07E500D437F5 /* iHealth_CareKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iHealth_CareKit.xcdatamodel; sourceTree = "<group>"; };
 		3F3475421E2F07E500D437F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +100,28 @@
 		3F34755D1E2F07E500D437F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../../Downloads/ResearchKit-master-2/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
 		3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CareKit.xcodeproj; path = "../../../../Downloads/CareKit-master-2/CareKit.xcodeproj"; sourceTree = "<group>"; };
+		3F3475981E2F0E0300D437F5 /* iHealth-CareKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iHealth-CareKit.entitlements"; sourceTree = "<group>"; };
+		3F3475B81E305D0700D437F5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3FCF8A5D1E31B20F00A7128E /* ZCService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCService.swift; sourceTree = "<group>"; };
+		3FCF8A5E1E31B20F00A7128E /* ZCServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCServiceProvider.swift; sourceTree = "<group>"; };
+		3FCF8A611E31B21700A7128E /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		3FCF8A621E31B21700A7128E /* MockResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockResource.swift; sourceTree = "<group>"; };
+		3FCF8A741E31B35300A7128E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3FCF8A9E1E31B49200A7128E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3FCF8AA91E31B8F200A7128E /* ZCCareMonthlySchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCCareMonthlySchedule.swift; sourceTree = "<group>"; };
+		3FCF8AAA1E31B8F200A7128E /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		3FCF8AAF1E31B96E00A7128E /* ZCCarePlanStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCCarePlanStoreManager.swift; sourceTree = "<group>"; };
+		3FCF8AB81E31BFCB00A7128E /* zombiepressup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombiepressup.png; sourceTree = "<group>"; };
+		3FCF8AB91E31BFCB00A7128E /* Zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zombie.png; sourceTree = "<group>"; };
+		3FCF8ABA1E31BFCB00A7128E /* glowingapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glowingapple.png; sourceTree = "<group>"; };
+		3FCF8ABB1E31BFCB00A7128E /* potionweakness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potionweakness.png; sourceTree = "<group>"; };
+		3FCF8AD41E31F06800A7128E /* Assessment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessment.swift; sourceTree = "<group>"; };
+		3FCF8AD61E31F10A00A7128E /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		3FCF8AD81E31F1A000A7128E /* CarePlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarePlan.swift; sourceTree = "<group>"; };
+		3FCF8ADA1E31F1BF00A7128E /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3FCF8ADC1E31F1F300A7128E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3FCF8ADE1E31F2D800A7128E /* BrainTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainTask.swift; sourceTree = "<group>"; };
+		3FCF8AE01E31F3A900A7128E /* careplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = careplan.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +129,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3475991E2F108400D437F5 /* CareKit.framework in Frameworks */,
+				3F34759A1E2F108400D437F5 /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,12 +174,21 @@
 		3F3475371E2F07E500D437F5 /* iHealth-CareKit */ = {
 			isa = PBXGroup;
 			children = (
+				3FCF8AA61E31B8E000A7128E /* Model */,
+				3FCF8A5C1E31B15100A7128E /* resources */,
+				3FCF8A5A1E31B13F00A7128E /* Mocks */,
+				3FCF8A591E31B12700A7128E /* Services */,
 				3F3475381E2F07E500D437F5 /* AppDelegate.swift */,
-				3F34753A1E2F07E500D437F5 /* ViewController.swift */,
+				3FCF8A741E31B35300A7128E /* RootViewController.swift */,
+				3FCF8ADC1E31F1F300A7128E /* Color.swift */,
+				3FCF8A9E1E31B49200A7128E /* Colors.swift */,
+				3FCF8AAF1E31B96E00A7128E /* ZCCarePlanStoreManager.swift */,
 				3F34753C1E2F07E500D437F5 /* Main.storyboard */,
+				3F3475B81E305D0700D437F5 /* SwiftyJSON.swift */,
 				3F3475421E2F07E500D437F5 /* Assets.xcassets */,
 				3F3475441E2F07E500D437F5 /* LaunchScreen.storyboard */,
 				3F3475471E2F07E500D437F5 /* Info.plist */,
+				3F3475981E2F0E0300D437F5 /* iHealth-CareKit.entitlements */,
 				3F34758E1E2F0D4700D437F5 /* CareKit.xcodeproj */,
 				3F3475841E2F0D3C00D437F5 /* ResearchKit.xcodeproj */,
 				3F34753F1E2F07E500D437F5 /* iHealth_CareKit.xcdatamodeld */,
@@ -176,6 +230,51 @@
 				3F3475971E2F0D4700D437F5 /* CareKitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCF8A591E31B12700A7128E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF8A5D1E31B20F00A7128E /* ZCService.swift */,
+				3FCF8A5E1E31B20F00A7128E /* ZCServiceProvider.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3FCF8A5A1E31B13F00A7128E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF8AE01E31F3A900A7128E /* careplan.json */,
+				3FCF8ADE1E31F2D800A7128E /* BrainTask.swift */,
+				3FCF8AD41E31F06800A7128E /* Assessment.swift */,
+				3FCF8A611E31B21700A7128E /* MockService.swift */,
+				3FCF8A621E31B21700A7128E /* MockResource.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		3FCF8A5C1E31B15100A7128E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF8AB81E31BFCB00A7128E /* zombiepressup.png */,
+				3FCF8AB91E31BFCB00A7128E /* Zombie.png */,
+				3FCF8ABA1E31BFCB00A7128E /* glowingapple.png */,
+				3FCF8ABB1E31BFCB00A7128E /* potionweakness.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		3FCF8AA61E31B8E000A7128E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF8ADA1E31F1BF00A7128E /* Contact.swift */,
+				3FCF8AD61E31F10A00A7128E /* Activity.swift */,
+				3FCF8AD81E31F1A000A7128E /* CarePlan.swift */,
+				3FCF8AAA1E31B8F200A7128E /* Medication.swift */,
+				3FCF8AA91E31B8F200A7128E /* ZCCareMonthlySchedule.swift */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +347,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8982T47U8J;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
 					};
 					3F34754B1E2F07E500D437F5 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -329,9 +433,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCF8ABC1E31BFCB00A7128E /* zombiepressup.png in Resources */,
+				3FCF8ABD1E31BFCB00A7128E /* Zombie.png in Resources */,
 				3F3475461E2F07E500D437F5 /* LaunchScreen.storyboard in Resources */,
+				3FCF8AE11E31F3A900A7128E /* careplan.json in Resources */,
+				3FCF8ABE1E31BFCB00A7128E /* glowingapple.png in Resources */,
 				3F3475431E2F07E500D437F5 /* Assets.xcassets in Resources */,
 				3F34753E1E2F07E500D437F5 /* Main.storyboard in Resources */,
+				3FCF8ABF1E31BFCB00A7128E /* potionweakness.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +465,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F34753B1E2F07E500D437F5 /* ViewController.swift in Sources */,
+				3FCF8AB01E31B96E00A7128E /* ZCCarePlanStoreManager.swift in Sources */,
+				3FCF8AD51E31F06800A7128E /* Assessment.swift in Sources */,
+				3FCF8ADB1E31F1BF00A7128E /* Contact.swift in Sources */,
+				3FCF8A601E31B20F00A7128E /* ZCServiceProvider.swift in Sources */,
+				3FCF8ADD1E31F1F300A7128E /* Color.swift in Sources */,
+				3FCF8A631E31B21700A7128E /* MockService.swift in Sources */,
+				3FCF8AD71E31F10A00A7128E /* Activity.swift in Sources */,
+				3FCF8A5F1E31B20F00A7128E /* ZCService.swift in Sources */,
 				3F3475391E2F07E500D437F5 /* AppDelegate.swift in Sources */,
+				3FCF8A751E31B35300A7128E /* RootViewController.swift in Sources */,
 				3F3475411E2F07E500D437F5 /* iHealth_CareKit.xcdatamodeld in Sources */,
+				3FCF8A9F1E31B49200A7128E /* Colors.swift in Sources */,
+				3FCF8AAD1E31B8F200A7128E /* ZCCareMonthlySchedule.swift in Sources */,
+				3F3475B91E305D0700D437F5 /* SwiftyJSON.swift in Sources */,
+				3FCF8A641E31B21700A7128E /* MockResource.swift in Sources */,
+				3FCF8AAE1E31B8F200A7128E /* Medication.swift in Sources */,
+				3FCF8AD91E31F1A000A7128E /* CarePlan.swift in Sources */,
+				3FCF8ADF1E31F2D800A7128E /* BrainTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +634,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iHealth-CareKit/iHealth-CareKit.entitlements";
 				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = "iHealth-CareKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -523,6 +648,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iHealth-CareKit/iHealth-CareKit.entitlements";
 				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = "iHealth-CareKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
